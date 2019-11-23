@@ -80,6 +80,7 @@ input, select, textarea {
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+		margin-left: 1em;
 	}
 
 	body {
@@ -1939,14 +1940,15 @@ input, select, textarea {
 	.box {
 		background: #fff;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-		text-align: center;
+		text-align: justify;
 		padding: 2em;
 	}
 
 		.box.style1 {
 			height: 45em;
+			position: relative;
 			padding: 3em 2em 3.5em 2em;
-		}
+			}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
@@ -1985,7 +1987,8 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			font-size: 1.25em;
+  			  font-size: 3.25em;
+    		  margin-top: 25px;
 		}
 
 		.icon > .label {
